@@ -5,8 +5,20 @@
   </head>
   <body>
       <span id='nickname'>rednaks</span>
+
+      <br/>
+      <span id='output'></span>
       <script type="text/javascript">
         // Display the value of nickname using JQuery
+        var nickname = $('#nickname').text();
+        console.log('The nickname is ' + nickname);
+        $('#output').text('The nickname is ' + nickname);
+
+        function something(){
+          console.log('You are welcome !');
+        }
       </script>
+
+      <input type='button' id='nickname' onclick="something()">rednaks</span>
   </body>
 </html>
