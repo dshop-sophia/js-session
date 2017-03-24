@@ -1,0 +1,19 @@
+{
+  "name": "server",
+  "version": "0.0.1",
+  "description": "simple tutorial on node js",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm test",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "tutorial",
+    "node"
+  ],
+  "author": "Aymen Mouelhi <aymen.mouelhi@gmail.com> (https://github.com/aymen-mouelhi)",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^1.1.3"
+  }
+}
